@@ -1,7 +1,8 @@
 export default function styles() {
   return {
     container: {
-      marginBottom: 10
+      marginBottom: 20,
+      padding: 5
     }
   };
 }
