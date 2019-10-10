@@ -74,10 +74,10 @@ function Item({ item, index, classes }) {
               {item.title}
             </Grid>
             <Grid item md={1}>
-              {item.value}
+              <span className={classes.number}>{item.value}</span>
             </Grid>
             <Grid item md={1}>
-              {item.cost}
+              <span className={classes.number}>{item.cost}</span>
             </Grid>
             <Grid item md={2}>
               {getStatusText(item)}
