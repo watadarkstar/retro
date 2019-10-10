@@ -9,7 +9,7 @@ function ItemInput({ classes }) {
     <Paper className={classes.container}>
       <Grid container>
         <Grid item md={8}>
-          <TextField id="standard-name" placeholder="Description" />
+          <TextField id="standard-name" placeholder="Title" />
         </Grid>
         <Grid item md={1}>
           <TextField id="standard-name" placeholder="Cost" />
