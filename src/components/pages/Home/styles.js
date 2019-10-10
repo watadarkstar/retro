@@ -1,7 +1,8 @@
 export default function styles() {
   return {
     container: {
-      display: "block"
+      display: "block",
+      margin: 50
     },
     list: {
       margin: "auto",

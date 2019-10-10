@@ -4,6 +4,7 @@ import { withStyles } from "@material-ui/core/styles";
 
 import styles from "./styles";
 import Item from "./Item";
+import ItemInput from "./ItemInput";
 
 // fake data generator
 const getItems = count =>
@@ -63,6 +64,7 @@ class Home extends Component {
                 ref={provided.innerRef}
                 className={classes.list}
               >
+                <ItemInput />
                 {this.state.items.map((item, index) => (
                   <Item key={item.id} item={item} index={index} />
                 ))}
